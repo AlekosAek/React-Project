@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logoImage{
+  padding: 1em;
+}
+.headerLinks{
+padding: 2em;
+}
+.headerLinks a:nth-child(1){
+padding: 1em;
+}
+
+.headerLinks a:nth-child(2){
+  padding: 1em;
+  }
+  
+.headerLinks a:nth-child(3){
+  padding: 1em;
+  }
+  
+.headerLinks a:nth-child(4){
+  padding: 1em;
+  }
