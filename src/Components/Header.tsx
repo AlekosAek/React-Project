@@ -11,7 +11,8 @@ function Header() {
           Αρχικη
         </Link>
         <Link to="/ServicesPage">Services</Link>
-        <Link to="/AboutMe">AboutMe</Link>
+        <Link to="/Inspiration">Inspiration</Link>
+        <Link to="/AddInspiration">AddInspiration</Link>
       </div>
 
     </header>

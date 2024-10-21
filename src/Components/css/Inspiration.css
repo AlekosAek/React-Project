@@ -1,0 +1,28 @@
+.myInspi {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ispirationUl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+  gap: 20px; /* Space between grid items */
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.ispirationLi {
+  border: 1px solid #ccc; /* Optional border for each book */
+  border-radius: 8px; /* Optional rounded corners */
+  padding: 10px;
+  background-color: #f9f9f9; /* Optional background color */
+  text-align: center; /* Center text */
+}
+
+img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+}

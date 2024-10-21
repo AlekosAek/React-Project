@@ -1,11 +1,26 @@
-footer{
+footer {
   padding: 1em;
 }
-.myFooter{
-  display: grid;
-  grid-template-columns: auto auto auto;
+
+.myFooter {
+  display: flex; /* Use flexbox for row alignment */
+  justify-content: space-between; /* Space between columns */
+  align-items: center; /* Align items vertically */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
-.myFooterLogo{
-  padding: 3em;
+.myFooterLogo {
+  padding: 2em;
 }
+
+.firstRow>ul{
+  text-emphasis: none;
+  list-style-type: none; /* Remove bullet points */
+}
+.myFooter li {
+  margin-bottom: 0.5em; /* Optional: add some space between list items */
+  list-style-type: none; /* Remove bullet points */
+
+}
+
+

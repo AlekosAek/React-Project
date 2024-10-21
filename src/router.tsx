@@ -2,7 +2,8 @@ import { createBrowserRouter, createRoutesFromElements, Route } from "react-rout
 import App from "./App";
 import HomePage from "./Pages/HomePage";
 import ServicesPage from "./Pages/ServicesPage";
-import AboutMe from "./Pages/AboutMe";
+import Inspiration from "./Pages/Inspiration";
+import AddInspiration from "./Pages/AddInspiration";
 
 
 export const router = createBrowserRouter(
@@ -10,6 +11,8 @@ export const router = createBrowserRouter(
     <Route path="/" element={<App />} >
       <Route index element={<HomePage />} />
       <Route path="ServicesPage" element={<ServicesPage/>} />
-      <Route path="AboutMe" element={<AboutMe />} />
+      <Route path="Inspiration" element={<Inspiration />} />
+      <Route path="AddInspiration" element={<AddInspiration />} />
+
     </Route>
   ))

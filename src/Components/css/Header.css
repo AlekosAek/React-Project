@@ -1,25 +1,28 @@
-header {
-  display: flex;
-  justify-content: space-between;
-}
-.logoImage{
-  padding: 1em;
-}
-.headerLinks{
-padding: 2em;
-}
-.headerLinks a:nth-child(1){
-padding: 1em;
-}
-
-.headerLinks a:nth-child(2){
-  padding: 1em;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align vertically */
+    max-width: 1200px; /* Set a max width to limit the header's width */
+    width: 100%; /* Make it responsive */
+    margin: 0 auto; /* Center the header */
+    padding: 1em 2em; /* Add some padding */
   }
   
-.headerLinks a:nth-child(3){
-  padding: 1em;
+  .logoImage {
+    padding: 1em;
   }
   
-.headerLinks a:nth-child(4){
-  padding: 1em;
+  .headerLinks {
+    display: flex;
+    gap: 1em; /* Add space between the links */
   }
+  
+  .headerLinks a {
+    padding: 0.5em 1em; /* Consistent padding for all links */
+    text-decoration: none; /* Optional: Remove underline */
+  }
+  
+  body {
+    overflow-x: hidden; /* Disable horizontal overflow */
+  }
+  

@@ -11,7 +11,7 @@ function Footer() {
         <div className="firstRow">
           <h2>SERVICES</h2>
           <ul>
-            <li>
+            <li >
             Individual Psychotherapy for Adults
             </li>
             <li>
